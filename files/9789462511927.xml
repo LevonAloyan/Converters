@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[2018]]></PartNumber>
+                        <TitleText><![CDATA[Preadviezen Vereniging voor Burgerlijk Recht]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Recht over tijd]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Vliet, L.P.W. van]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Loth, M.A.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Privaatrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Privaatrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Hoe gaan we om met historisch onrecht? Welke mogelijkheden en beperkingen biedt het recht? Of het nu gaat om het slavernijverleden, het postkoloniale verleden, of het misbruik in de Rooms-Katholieke Kerk, telkens rijst de vraag of onrecht in een min of meer ver verleden grond kan zijn voor aansprakelijkheid in het heden. Wat gestolen kunst betreft rijst de vraag of de eigenaar of zijn rechtsopvolgers eeuwig moeten kunnen revindiceren of dat aan die mogelijkheid door verjaring een einde moet worden gemaakt. In het eerste preadvies worden twee vragen onderzocht, namelijk de vraag naar het ‘wanneer’ van aansprakelijkheid (de vereisten), en die naar het ‘waarom’ (de legitimaties). Bron van inspiratie vormde de discussie over de ‘slavery reparations suits’ in de Verenigde Staten. De bevindingen leveren een beeld op van de variabelen van een succesvolle vordering op grond van historisch onrecht in onze rechtsorde. Het tweede preadvies laat zien dat de vraag of een verjaringstermijn moet lopen tegen een eigenaar die niet kan revindiceren zeer verschillend wordt beantwoord in de onderzochte rechtssystemen. De nadruk van het onderzoek ligt op de ratio van verjaring en de voor- en nadelen van het ontbreken van verjaringstermijnen voor gestolen kunst. Het is frappant dat bij het onderwerp ‘verjaring en gestolen kunst’ met goed verdedigbare argumenten tegengestelde standpunten te verdedigen zijn.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[07-12-2018]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2018]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511927]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[37.16]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

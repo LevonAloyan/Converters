@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Ernstige verkeersdelicten]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Keulen, B.F.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Postma, A.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[3]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Wolswijk, H.D.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Strafrecht en strafprocesrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Strafrecht en strafprocesrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">De straffen die bij ernstige verkeersdelicten worden opgelegd staan in de samenleving, de politiek en de strafrechtswetenschap sterk in de belangstelling. In dit onderzoek, dat tussen de zomer van 2016 en de zomer van 2017 in opdracht van het WODC en op verzoek van het Ministerie van Veiligheid en Justitie is uitgevoerd door medewerkers van de vakgroep strafrecht en criminologie van de Rijksuniversiteit Groningen, wordt de straftoemeting ter zake van ernstige verkeersdelicten en het wettelijk kader waarin deze plaatsvindt onder de loep genomen.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[15-09-2017]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2017]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511439]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[46.33]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

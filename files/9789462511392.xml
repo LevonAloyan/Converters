@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Mededingingsrecht in de EU en Nederland]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Gronden, J.W. van de ]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Internationaal (publiek)recht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Internationaal (publiek)recht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Het mededingingsrecht behoort tot de kern van het beleid van de Europese Unie. Europese integratie is voor een groot gedeelte marktintegratie. Rivaliteit tussen onderneming in de Europese arena moet leiden tot meer consumentenwelvaart op de interne markt van de EU. De toepassing en handhaving van het EU-mededingingsrecht zijn krachtig ter hand genomen door de Europese Commissie in de loop van de jaren. Toch staan de Europese regels voor de concurrentie niet op zichzelf. Ook de lidstaten hebben mededingingswetgeving aangenomen. Nationale mededingingsautoriteiten hebben aansluiting gevonden bij de kopgroep van de Commissie. In Nederland geldt de Mededingingswet, die naar Europees model is vormgegeven en door de ACM wordt gehandhaafd. Het Europees en Nederlands mededingingsrecht is sterk vervlochten met elkaar. Dit recht kan alleen beoefend worden door zowel kennis te nemen van de Europese als nationale dimensie ervan. In dit boek worden daarom beide dimensies belicht en onderworpen aan een analyse. Belangrijke concepten, begrippen en regels worden uitgelegd en verdiept. Het boek kan daarom gebruikt worden voor een gevorderd bachelor- of mastervak. Prof. mr. J.W. van de Gronden is hoogleraar Europees recht aan de Radboud Universiteit Nijmegen. Daarnaast is hij staatsraad i.b.d. bij de Afdeling Bestuursrechtspraak van de Raad van State.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[08-08-2017]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2017]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511392]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[50.92]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

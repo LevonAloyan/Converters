@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Nieuwe vormen van arbeidsrelaties en sociale bescherming]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Pennings, Frans (red.)]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Plantenga, Janneke (red.)]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Arbeids- en sociale zekerheidsrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Arbeids- en sociale zekerheidsrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">De arbeidsmarkt is sterk in ontwikkeling. De vertrouwde fulltimebanen maken steeds meer plaats voor tijdelijke banen of andere vormen van flexibele arbeid. Mensen werken minder vaak op een vaste locatie en een vast tijdstip. Daarnaast moeten ze regelmatig een periode wijden aan zorgtaken of aan bijscholing. Deze ontwikkelingen maken het nodig om te denken over nieuwe vormen van sociale bescherming. Daarvoor biedt dit boek veel informatie. De effecten van nieuwe arbeidspatronen op de loopbanen van de werkenden worden beschreven en het boek gaat in op de vraag of en op welke wijze sociale bescherming kan worden georganiseerd. Is het stimuleren van private spaarvormen een mogelijkheid? Of moet de maatschappij meer investeren in publieke arrangementen om de combinatie van werk en (mantel)zorg mogelijk te maken? In dit boek komen zowel de juridische als de economische dimensies van deze vragen aan de orde. Het geeft daarmee een actueel en veelzijdig beeld van de ontwikkelingen op de Nederlandse arbeidsmarkt.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[02-07-2018]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2018]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511781]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[35.32]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

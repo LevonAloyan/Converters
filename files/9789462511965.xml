@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Perspectieven op de godsdienstvrijheid en de verhouding tussen staat en religie]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Broeke, C. van den (red.)]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[ Overbeeke, A.J. (red.)]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[3]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Ploeg, T.J. van der (red.)]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[4]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Schyff, G. van der (red.)]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Recht algemeen]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Recht algemeen]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Deze bundel ter gelegenheid van het tienjarig bestaan van het NTKR, Tijdschrift voor Recht en Religie, kent twee delen. I: de scheiding van ‘kerk en staat’ en de gevolgen voor het recht van religieuze organisaties, en II: de vrijheid van godsdienst vanuit religieus perspectief. Niet alleen de visie van westerse juristen, maar ook visies vanuit verschillende godsdiensten komen aan bod. Aan de orde komen in deel I: ‘Verbondenheid van Kerk en Staat in het vroegmoderne regalisme’, ‘De gevaarlijke verleiding van de staatskerk’, ‘Overheidsfinanciering voor geloofsgemeenschappen in de Straatsburgse jurisprudentie’, ‘De relatie tussen religie en staat in de islam’, ‘Wat God verbonden heeft… Het spanningsveld van de rooms-katholieke echtscheiding in de Nederlandse samenleving anno 2018’, “Hun eigen statuut”: kerkelijk primaat of statelijk privaat?,  ‘De relatie tussen de vrijheid van godsdienst voor geloofsgemeenschappen op organisatorisch vlak en de vrijheid van vereniging’ en ‘Gelijke behandeling en personeelsbeleid binnen kerkelijke organisaties: is artikel 3 Awgb over zijn juridische houdbaarheidsdatum?’ In deel II komen visies op de vrijheid van godsdienst aan de orde vanuit verschillende godsdiensten: ‘Vrijheid van godsdienst binnen de kerk?’ ‘Waar is de uitgang? Godsdienstvrijheid, het recht op uittreding, geloofsafval en het apostasieverbod in joodse, christelijke en islamitische geloofsgemeenschappen’, ‘Een licht voor de naties. Vrijheid van godsdienst voor de vreemdeling, de afvallige en als fundament voor staatsinrichting’, “Er is geen dwang in de godsdienst.” (9:129). Het recht op godsdienstvrijheid en burgerlijke vrijheden in de islam’ en ‘Godsdienstvrijheid en meervoudige religieuze betrokkenheid: naar een intercultureel perspectief’.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[07-02-2019]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2019]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511965]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[33.03]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

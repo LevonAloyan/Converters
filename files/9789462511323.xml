@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Sanctionering van informatieplichten uit de Richtlijn consumentenrechten]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Tigelaar, L.B.A.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Recht algemeen]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Recht algemeen]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Verschillende Europese richtlijnen die de consument beogen te beschermen, bevatten informatieplichten. Een van deze richtlijnen is de Richtlijn consumentenrechten (2011/83/EU). Op grond daarvan zijn ondernemers verplicht aan consumenten informatie te verstrekken als zij een overeenkomst sluiten in een fysieke winkel, buiten een verkoopruimte of op afstand. Evenals andere richtlijnen uit het consumentenacquis laat de Richtlijn consumentenrechten de sanctionering van een schending van deze informatieplichten grotendeels over aan de lidstaten. In dit onderzoek wordt nagegaan hoe de sanctionering van deze informatieplichten eruitziet in Duitsland, Engeland en Nederland. Dit gebeurt aan de hand van de volgende vraag: hoe wordt een schending van informatieplichten uit de Richtlijn consumentenrechten in Duitsland, Engeland en Nederland gesanctioneerd en wie hanteren deze sancties en waarom zij? Deze vraag wordt beantwoord aan de hand van drie delen. In deel I van dit onderzoek wordt stilgestaan bij de informatieplichten uit de Richtlijn consumentenrechten en hun doel. In deel II wordt ingegaan op de sancties die kunnen worden toegepast in de drie rechtsstelsels bij een schending van een informatieplicht en wordt ingegaan op degenen die ze hanteren. In deel III wordt bekeken welke keuzes in Duitsland, Engeland en Nederland zijn gemaakt bij de sanctionering van oneerlijke handelspraktijken en de handhaving van het consumentenrecht. Leonieke Tigelaar (1988) heeft in 2009 haar bachelor Nederlands recht (cum laude) en in 2011 haar master Nederlands recht (Togamaster, specialisatie Privaatrecht) behaald aan de Rijksuniversiteit Groningen. Zij is als universitair docent verbonden aan de Rijksuniversiteit.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[08-06-2017]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2017]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511323]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[54.13]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

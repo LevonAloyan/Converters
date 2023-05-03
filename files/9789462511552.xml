@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[23]]></PartNumber>
+                        <TitleText><![CDATA[Serie Bouw- en Aanbestedingsrecht (serie)]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Aanbestedingsrecht deel 23 (nieuwe opzet)]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Chao-Duijvis, M.A.B.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Wijngaarden, M.A. van]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Privaatrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Privaatrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">In de Serie Bouw- en Aanbestedingsrecht geeft de auteur een op de praktijk gerichte behandeling van de belangrijkste onderwerpen uit het bouw- en aanbestedingsrecht. Deel 20 tot en met 24 zijn gewijd aan het aanbestedingsrecht. Het gaat om het aanbestedingsrecht in de brede zin van het woord: alle economische sectoren betreffend. Deze delen vormen een eigen geheel binnen de serie en zijn van belang voor eenieder die zich bezighoudt met aanbestedingsrecht of het nu om de zorgsector, de bouwsector of welke sector dan ook gaat. De behandeling van het aanbestedingsrecht is gebaseerd op de aanbestedingswet en het ARW. Daarbinnen is gekozen voor die onderwerpen, die getuige de hoeveelheid rechtspraak de meeste aandacht verdienen. Naast de vele rechtspraak die is opgenomen, zijn ook adviezen van de Commissie van Aanbestedingsexperts opgenomen. Met behulp van de gedetailleerde inhoudsopgave is snel de rechtspraak te vinden, die inzicht kan geven in wat wel en niet geoorloofd is. In deel 23 worden behandeld: Gunningscriteria, Gunning. Mr. M.A. van Wijngaarden: in leven emeritus hoogleraar bouwrecht aan de Rijksuniversiteit Leiden. Prof. mr. dr. M.A.B. Chao-Duivis: directeur van het Instituut voor Bouwrecht, hoogleraar bouwrecht aan de Technische Universiteit Delft, arbiter bij de Raad van Arbitrage, raadsheer-plaatsvervanger bij het Hof 's-Gravenhage en lid van de Commissie van Aanbestedingsexperts.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[12-12-2017]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2017]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511552]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[71.56]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

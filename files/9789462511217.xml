@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[2016]]></PartNumber>
+                        <TitleText><![CDATA[Preadviezen Vereeniging Handelsrecht]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Bestuur en toezicht bij rechtspersonen, mede in de semipublieke en non-profitsector]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Kluiver, H.J. de]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Blanco Fernández, J.M.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[3]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Huizink, J.B.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[4]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Overes, C.H.C.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[5]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Plomp, E.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[6]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Waaijer, B.C.M.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode></SubjectCode>
+                <SubjectHeadingText></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">De Vereeniging Handelsrecht buigt zich dit jaar over de voorstellen die van regeringswege zijn gedaan met betrekking tot een nieuwe regeling van het bestuur en toezicht binnen de privaatrechtelijke rechtspersonen zoals die worden onderscheiden in Boek 2 BW. Deze voorstellen zien enerzijds op een concentratie en uniformering van de regels die gelden voor de onderscheiden rechtspersonen in de algemene titel van Boek 2 BW en anderzijds, als gevolg van die uniformering en concentratie, op een aanzienlijke aanscherping van de regels die gelden voor het bestuur en toezicht bij niet-commerciële rechtspersonen, meer specifiek de vereniging en de stichting. Dit wetsvoorstel inzake bestuur en toezicht rechtspersonen (WBTR) roept veel vragen op. Heeft die uniformering voor alle privaatrechtelijke rechtspersonen werkelijk zin? Leidt dat tot betere regelgeving? Wordt aldus recht gedaan aan de grote variëteit van de maatschappelijke belangen die door rechtspersonen worden gediend? Houdt de regelgeving rekening met de enorme variëteit in aard, omvang, doelstelling en werkzaamheid van rechtspersonen? Hoe verhoudt de voorgestelde regeling zich met de uitgebreide sectorale wetgeving bijvoorbeeld in het onderwijs of de gezondheidszorg? Wordt in deze voorgestelde privaatrechtelijke wetgeving wel voldoende rekening gehouden met rechtspersonen die in de semipublieke en non-profitsfeer nu juist ook mede publieke belangen behartigen?</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[22-11-2016]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2016]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511217]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[39.91]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

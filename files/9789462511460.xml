@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[10]]></PartNumber>
+                        <TitleText><![CDATA[Financieel Juridische Reeks]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Juridische aspecten van contant geld]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Scholten, A.A.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Recht algemeen]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Recht algemeen]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Deel 10 van de Financieel Juridische Reeks gaat over de juridische aspecten van contant geld. Met de introductie van de euro is Europese wet- en regelgeving een grote rol gaan spelen, een rol die tot nu toe weinig aandacht heeft gekregen. De verschuiving van contant naar elektronisch betalen roept nieuwe vragen op over de positie van contant geld als wettig betaalmiddel. Beide aspecten krijgen veel aandacht in dit boek. De auteur volgt in zijn boek de kringloop van contant geld: van de uitgifte van bankbiljetten en munten door de officiële autoriteiten tot het gebruik van contant geld als betaalmiddel, eventuele vernietiging en nieuwe ontwerpen. Bijzondere onderwerpen zoals valsemunterij en 'nepgeld' komen uitgebreid aan bod. Dit boek is een aanrader voor eenieder die beroepshalve of uit nieuwsgierigheid belangstelling heeft voor de juridische positie van contant geld Mr. drs. A.A. Scholten is sinds 1980 werkzaam bij De Nederlandsche Bank (DNB), waar hij een groot aantal functies heeft vervuld. Enige jaren was hij gedetacheerd bij het Internationaal Monetair Fonds in Washington D.C. en bij de Europese Centrale Bank (ECB). Sinds 1997 is hij betrokken bij de ontwikkeling van het beleid van DNB ten aanzien van bankbiljetten en munten. Hij vervulde een centrale rol bij de introductie van de contante euro in 2002 en was vele jaren namens DNB lid van het Banknote Committee van de ECB, waar besluitvorming door de ECB Governing Council op het terrein van contant geld wordt voorbereid. Door zijn ervaring is Bram Scholten in een unieke positie om inzicht te geven in de juridische aspecten van contant geld.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[25-10-2017]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2017]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511460]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[30.73]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

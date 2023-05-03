@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Product>
+        <DescriptiveDetail>
+            <Collection>
+                <CollectionType>10</CollectionType>
+                <TitleDetail>
+                    <TitleElement>
+                        <PartNumber>1</PartNumber>
+                        <TitleText>AB&amp;V-Reeks</TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleElement>
+                    <TitleText>Aanneming van werk, de parlementaire geschiedenis</TitleText>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonName>Hebly, J.M. </PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>2</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonName>Lorenzo van Rooij, N.</PersonName>
+            </Contributor>
+            <EditionNumber>null</EditionNumber>
+            <Subject>
+                <SubjectSchemeIdentifier>23</SubjectSchemeIdentifier>
+                <SubjectCode>Privaatrecht</SubjectCode>
+                <SubjectHeadingText>Privaatrecht</SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>Paris</PublisherName>
+            </Publisher>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date dateformat="0">16-07-2004</Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date dateformat="5">2004</Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode>13</ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType>15</ProductIDType>
+                    <IDValue>9789077320044</IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+    </Product>
+</ONIXMessage>

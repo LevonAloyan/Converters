@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber></PartNumber>
+                        <TitleText></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Mens-arbeid-recht]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Drongelen, J. van]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Arbeids- en sociale zekerheidsrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Arbeids- en sociale zekerheidsrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Zonder arbeid is het menselijk leven niet denkbaar'. Deze opmerking laat aan duidelijkheid niets te wensen over. Dit neemt niet weg dat de betekenis van arbeid in de loop van de geschiedenis is veranderd. De waardering van arbeid ook, maar dat is afhankelijk van degene die daarover een oordeel uitspreekt. Daarbij speelt wel een rol dat degenen die het hardst ploeteren, zeker in het verleden, in de regel niet naar hun mening wordt gevraagd. In de Middeleeuwen met de overheersende rol van de kerk en standenmaatschappij zou het antwoord niet eens zo slecht zijn uitgevallen. Maar voor een waardeoordeel is een keuzevrijheid noodzakelijk. Eerst met de komst van de Franse Revolutie met zijn  'vrijheid, gelijkheid en (het nooit helemaal thuis te brengen) broederschap' is er een keuzemogelijkheid, althans juridisch. Er volgt een periode waarin onze op arbeid berustende sociale rechtsorde in de plaats komt van een individualistische bezitsorde, aldus Van der Ven. Er is zelfs (een tijdje) sprake van humanisering van de arbeid. In het realiseren van die sociale rechtsorde speelt de overheid een belangrijke rol. Maar ook die blijkt eindig te zijn. De rol van de overheid wordt steeds meer teruggedrongen. Deregulering, privatisering, marktwerking, de toenemende individualisering en flexibilisering maken dat de sociale rechtsorde moet plaatsmaken voor een al maar verdergaande vereconomisering van de samenleving. Maar dat niet alleen, ook vindt er steeds meer ontmensing en ontmenselijking plaats. Arbeid wordt meer en meer teruggebracht tot niet meer dan de productiefactor waardoor de factor arbeid niet meer is geworden dan een wegwerpproduct. Mr. dr. J. van Drongelen: universitair hoofddocent Vakgroep Sociaal Recht en Sociale Politiek van de Universiteit van Tilburg en als adviseur verbonden aan De Voort Advocaten | Mediators in Tilburg</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[05-08-2016]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2016]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511088]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[21.10]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

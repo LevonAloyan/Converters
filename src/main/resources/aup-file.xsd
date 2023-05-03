@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import schemaLocation="schema1.xsd" namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="front">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="journal-meta">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="journal-id">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="journal-id-type" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="journal-title-group">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="journal-title" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="issn">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="pub-type" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="publisher">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="publisher-name" type="xs:string" />
+                                                    <xs:element name="publisher-loc" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="article-meta">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="article-id">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="pub-id-type" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="article-categories">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="subj-group">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="subject" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="title-group">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="article-title" type="xs:string" />
+                                                    <xs:element name="subtitle" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="contrib-group">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="contrib">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="name">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="surname" type="xs:string" />
+                                                                            <xs:element name="given-names" type="xs:string" />
+                                                                            <xs:element name="prefix" type="xs:string" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="contrib-type" type="xs:string" use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pub-date">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="month" type="xs:unsignedByte" />
+                                                    <xs:element name="year" type="xs:unsignedShort" />
+                                                </xs:sequence>
+                                                <xs:attribute name="pub-type" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="volume" type="xs:unsignedByte" />
+                                        <xs:element name="issue" type="xs:string" />
+                                        <xs:element name="fpage" type="xs:unsignedByte" />
+                                        <xs:element name="lpage" type="xs:unsignedByte" />
+                                        <xs:element name="permissions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="copyright-statement" type="xs:string" />
+                                                    <xs:element name="copyright-year" type="xs:unsignedShort" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="body" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="dtd-version" type="xs:decimal" use="required" />
+            <xs:attribute ref="xml:lang" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[2016]]></PartNumber>
+                        <TitleText><![CDATA[Preadviezen Vereniging voor Burgerlijk Recht]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Uitleg van rechtshandelingen]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Schelhaas, H.N.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Valk, W.L.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Privaatrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Privaatrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">In dit preadvies staat de thematiek van de uitleg van rechtshandelingen centraal. Weliswaar lijken de basisprincipes op het gebied van uitleg bekend en helder (zoals de Haviltex-maatstaf en de cao-norm), maar de praktijk plaatst de Hoge Raad en allen die het civiele recht beoefenen steeds voor nieuwe vragen. Vooral sinds het arrest DSM/Fox uit 2004 zijn er in de rechtspraak van de Hoge Raad op het gebied van uitleg veel nieuwe nuances geïntroduceerd. Tegen deze achtergrond brengt Valk in het eerste deel van dit preadvies de ontwikkelingen in kaart en trekt hij lijnen door. Hij gaat onder meer in op het rechtstreekse verband tussen uitleg en de wilsvertrouwensleer, objectiverende uitleg, de uitleg van huwelijkse voorwaarden, statuten, algemene voorwaarden, derdenbedingen en verzekeringsovereenkomsten, en uitleg op het snijvlak van het goederen- en verbintenissenrecht. Bovendien wordt de verhouding tussen uitleg en de andere in art. 6:248 BW aangeduide bronnen van de rechtsgevolgen van overeenkomsten (aanvullend en dwingend recht, gewoonterecht en redelijkheid en billijkheid) beknopt besproken alsmede de processuele aspecten van uitleg. Schelhaas plaatst in haar deel van het preadvies de uitleg van rechtshandelingen in een internationaal perspectief door middel van rechtsvergelijking met Engels, Schots, Duits en Frans recht en soft law, en door een analyse van de uitleg van een aantal internationale clausules (bijv. force majeure&hardship clause). Daarna bespreekt zij enkele kwesties van contractvorming: op welke wijze(n) kunnen contractspartijen de wijze van uitleg contractueel modelleren? De preadviseurs komen tot de conclusie dat de thematiek van de uitleg pluriform is en blijft, zowel wat betreft de uitlegmaatstaf, als in internationaal perspectief. Het preadvies besteedt aandacht aan de theorie en de rechtspraktijk, en kan daarmee van waarde zijn voor een ieder die vanuit de wetenschap of rechtspraktijk geconfronteerd wordt met uitlegvragen. Prof. mr. H.N. Schelhaas is Hoogleraar privaatrecht aan de Erasmus Universiteit Rotterdam. Mr. W.L. Valk is advocaat-generaal bij de Hoge Raad der Nederlanden en senior onderzoeker bij de Radboud Universiteit Nijmegen.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[30-11-2016]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2016]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511224]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[38.53]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[5]]></PartNumber>
+                        <TitleText><![CDATA[Juridische Reeks]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Toezicht op banken]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Boogaard, H.P.A.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode></SubjectCode>
+                <SubjectHeadingText></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">Het boek Toezicht op banken. Kredietcrisis, eurocrisis, Europese bankenunie en bankencrisismanagement gaat in op de ontwikkelingen die zich sinds de financiële crisis, die begon in 2008, hebben voorgedaan in het financiële toezicht op nationaal en Europees niveau en op de politieke en juridische overwegingen die aan deze veranderingen ten grondslag hebben gelegen. De grootste verandering trad op toen de eurolanden in juni 2012 besloten tot de oprichting van de Europese bankenunie. Herstel van vertrouwen, waarborging van de financiële stabiliteit en minimalisatie van de kosten van afwikkeling van noodlijdende banken voor de belastingbetaler waren de overwegingen die aan deze grootscheepse aanpassing van de Europese en Nederlandse regelgeving voor banken ten grondslag lagen. Er wordt uitgebreid stilgestaan bij de hoogte van de eigen vermogens van banken die een enorm tekort vertonen in vergelijking met de eisen die banken in het kader van financiering zelf stellen aan de eigen vermogens van ondernemingen in het bedrijfsleven. De Europese bankenunie is inmiddels van kracht. Uit de toepassing ervan zal moeten blijken of de doelstellingen van de Unie kunnen worden gerealiseerd. In dit boek komen een aantal knelpunten naar voren die de effectiviteit van het (toekomstig) bankentoezicht in de weg kunnen staan. Als de meest belangrijke zijn te noemen: de (on)toereikendheid van het eigen vermogen van de banken, de (on)toereikendheid van het afwikkelfonds en de risico 's van shadow banking die een destabiliserend effect voor het financiële stelsel kunnen hebben. Mr. H.P.A. Boogaard studeerde Accountancy en Rechtsgeleerdheid aan de Open Universiteit Nederland. Zijn masterscriptie, waarop dit boek is gebaseerd, schreef hij over de ontwikkeling van het bankentoezicht. Op dit terrein hoopt hij ook zijn proefschrift te schrijven. In de praktijk heeft hij ruime ervaring opgedaan met het herstel en de afwikkeling van met name organisaties in de gezondheidszorg die in financieel zwaar weer verkeerden. Thans is hij werkzaam als zelfstandig financieel adviseur en bedrijfsjurist.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[23-06-2016]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2016]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462511064]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[20.64]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

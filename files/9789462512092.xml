@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[2019]]></PartNumber>
+                        <TitleText><![CDATA[Preadviezen Vereniging voor Burgerlijk Recht]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Digitalisering, vermogensrecht, de platformeconomie en grondrechten]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Gerards, J.H.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[ Schaick, A.C. van]]></PersonName>
+            </Contributor>
+            <EditionNumber><![CDATA[1]]></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode><![CDATA[Privaatrecht]]></SubjectCode>
+                <SubjectHeadingText><![CDATA[Privaatrecht]]></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">In het traditionele vermogensrecht worden vragen over de totstandkoming, uitleg en uitvoering van overeenkomsten beantwoord met de koopovereenkomst voor ogen, die strekt tot de overdracht van eigendom tegen betaling van geld. Dat past bij een maatschappij waarin (eerst) de agrarische sector en (vervolgens) de industriële sector de economische overhand hebben. Maar tegenwoordig is contractenrecht steeds meer dienstverleningscontractenrecht, een tendens die wordt versterkt door de digitalisering, waaraan dienstverlening inherent is. Als software de primaire materie is, draait het vermogensrecht niet in de eerste plaats om koop en eigendom, maar om het (tijdelijke) genot van een gedigitaliseerde zaak of dienst. Vragen van totstandkoming, uitleg en uitvoering van digitale-dienstverleningsovereenkomsten zijn niet steeds goed te beantwoorden aan de hand van regels die voor het koopcontractenrecht zijn ontwikkeld, en digitale-dienstverleningsovereenkomsten leiden ook tot nieuwe vragen over de partijautonomie, en over de betekenis van het goederenrecht, waarin eigendom respectievelijk toebehoren centraal staan. Bert van Schaick beschrijft in zijn preadvies hoe digitalisering al met al dwingt tot bezinning op traditionele uitgangspunten van het vermogensrecht. Een tweede ontwikkeling die in deze preadviezen wordt belicht, is die van de opkomst van digitale platformen. Steeds vaker bieden mensen overbodig geworden spullen aan via een internetportal, vermelden ze op een website dat ze een boormachine of fiets willen lenen, of bieden ze via een app diensten aan zoals het thuisbezorgen van pizza’s of het verhuren van een appartement. In de afgelopen jaren is al veel onderzoek gedaan naar de vraag hoe digitale platformen juridisch moeten worden geduid en wat de juridische consequenties zijn van hun tussenkomst. De gevolgen voor de bescherming van grondrechten zijn vooralsnog onderbelicht gebleven. Het preadvies van Janneke Gerards beoogt dit kennishiaat te vullen door de gevolgen van de opkomst van digitale platformen voor de grondrechten in brede zin te verkennen. Voor verschillende categorieën van grondrechten (privacyrechten, vrijheidsrechten, gelijkheidsrechten en procedurele rechten) onderzoekt zij hoe de opkomst van de digitale platformen ze kan raken, zowel in positieve als in negatieve zin, en in hoeverre dit juridische vragen oplevert die relevant kunnen zijn in rechterlijke procedures, regulering en beleidsvorming.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[06-12-2019]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2019]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462512092]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[37.16]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

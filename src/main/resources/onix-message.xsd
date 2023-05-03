@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://ns.editeur.org/onix/3.0/reference" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ONIXMessage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Header">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Sender">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SenderName" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="SentDateTime" type="xs:string" />
+                            <xs:element name="DefaultPriceType" type="xs:string" />
+                            <xs:element name="DefaultCurrencyCode" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Product">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="RecordReference" type="xs:string" />
+                            <xs:element name="NotificationType" type="xs:string" />
+                            <xs:element name="ProductIdentifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ProductIDType" type="xs:string" />
+                                        <xs:element name="IDValue" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="DescriptiveDetail">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ProductComposition" type="xs:string" />
+                                        <xs:element name="ProductForm" type="xs:string" />
+                                        <xs:element name="Collection">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="CollectionType" type="xs:string" />
+                                                    <xs:element name="TitleDetail">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="TitleType" type="xs:string" />
+                                                                <xs:element name="TitleElement">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="TitleElementLevel" type="xs:string" />
+                                                                            <xs:element name="PartNumber" type="xs:string" />
+                                                                            <xs:element name="TitleText" type="xs:string" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="TitleDetail">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="TitleType" type="xs:string" />
+                                                    <xs:element name="TitleElement">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="TitleElementLevel" type="xs:string" />
+                                                                <xs:element name="TitleText" type="xs:string" />
+                                                                <xs:element name="Subtitle" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="Contributor">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="SequenceNumber" type="xs:string" />
+                                                    <xs:element name="ContributorRole" type="xs:string" />
+                                                    <xs:element name="PersonName" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="EditionNumber" type="xs:string" />
+                                        <xs:element name="Extent">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ExtentType" type="xs:string" />
+                                                    <xs:element name="ExtentValue" type="xs:string" />
+                                                    <xs:element name="ExtentUnit" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Subject">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="SubjectSchemeIdentifier" type="xs:string" />
+                                                    <xs:element name="SubjectCode" type="xs:string" />
+                                                    <xs:element name="SubjectHeadingText" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="CollateralDetail">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="TextContent">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="TextType" type="xs:string" />
+                                                    <xs:element name="ContentAudience" type="xs:string" />
+                                                    <xs:element name="Text">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="textformat" type="xs:unsignedByte" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PublishingDetail">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Publisher">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="PublishingRole" type="xs:string" />
+                                                    <xs:element name="PublisherName" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="CityOfPublication" type="xs:string" />
+                                        <xs:element name="PublishingStatus" type="xs:string" />
+                                        <xs:element maxOccurs="unbounded" name="PublishingDate">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="PublishingDateRole" type="xs:string" />
+                                                    <xs:element name="Date">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="dateformat" type="xs:unsignedByte" use="required" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="RelatedMaterial">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="RelatedProduct">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ProductRelationCode" type="xs:string" />
+                                                    <xs:element name="ProductIdentifier">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="ProductIDType" type="xs:string" />
+                                                                <xs:element name="IDValue" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ProductSupply">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SupplyDetail">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Supplier">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="SupplierRole" type="xs:string" />
+                                                                <xs:element name="SupplierName" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="ProductAvailability" type="xs:string" />
+                                                    <xs:element name="Price">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="PriceType" type="xs:string" />
+                                                                <xs:element name="PriceAmount" type="xs:string" />
+                                                                <xs:element name="CurrencyCode" type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="release" type="xs:decimal" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

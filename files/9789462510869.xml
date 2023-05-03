@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference ONIX_BookProduct_3.0_reference.xsd">
+    <Header>
+        <Sender>
+            <SenderName></SenderName>
+        </Sender>
+        <SentDateTime></SentDateTime>
+        <DefaultPriceType></DefaultPriceType>
+        <DefaultCurrencyCode></DefaultCurrencyCode>
+    </Header>
+    <Product>
+        <RecordReference></RecordReference>
+        <NotificationType></NotificationType>
+        <ProductIdentifier>
+            <ProductIDType></ProductIDType>
+            <IDValue></IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition></ProductComposition>
+            <ProductForm></ProductForm>
+            <Collection>
+                <CollectionType><![CDATA[10]]></CollectionType>
+                <TitleDetail>
+                    <TitleType></TitleType>
+                    <TitleElement>
+                        <TitleElementLevel></TitleElementLevel>
+                        <PartNumber><![CDATA[7]]></PartNumber>
+                        <TitleText><![CDATA[Financieel Juridische Reeks]]></TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType></TitleType>
+                <TitleElement>
+                    <TitleElementLevel></TitleElementLevel>
+                    <TitleText><![CDATA[Kapitaal- en liquiditeitseisen voor banken]]></TitleText>
+                    <Subtitle></Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber><![CDATA[1]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Joosen, E.P.M.]]></PersonName>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber><![CDATA[2]]></SequenceNumber>
+                <ContributorRole><![CDATA[A01]]></ContributorRole>
+                <PersonName><![CDATA[Groot, M.K.Z.]]></PersonName>
+            </Contributor>
+            <EditionNumber></EditionNumber>
+            <Extent>
+                <ExtentType></ExtentType>
+                <ExtentValue></ExtentValue>
+                <ExtentUnit></ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier><![CDATA[23]]></SubjectSchemeIdentifier>
+                <SubjectCode></SubjectCode>
+                <SubjectHeadingText></SubjectHeadingText>
+            </Subject>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType><![CDATA[03]]></TextType>
+                <ContentAudience></ContentAudience>
+                <Text textformat="02">In dit nieuwe deel van de Financieel Juridische Reeks gaan de auteurs in op de eigenvermogensvereisten voor banken die op grond van de Richtlijn Kapitaalvereisten (CRD IV) en de Verordening Kapitaalvereisten (CRR) in Europa en in Nederland zijn ingevoerd. Daarnaast worden de nieuwe kapitaalbuffers (kapitaalconserveringsbuffer, contracyclische kapitaalbuffer, systeemrisicobuffer en buffers voor systeemrelevante banken) behandeld. Ook de nieuwe norm voor de Leverage Ratio die naar verwachting vanaf 2018 in Europa zal worden ingevoerd, maar waarin in Nederland in de toezichtpraktijk reeds op wordt vooruitgelopen, wordt behandeld. Het boek bevat tevens een hoofdstuk over de Liquidity Coverage Ratio, de nieuwe norm voor kortlopende liquiditeit voor banken die in Nederland vanaf 1 oktober 2015 van kracht gaat. De auteurs hebben de materie toegelicht met talrijke rekenvoorbeelden om de materie voor de lezer toegankelijk te maken. Dit boek bevat aldus een behandeling van een belangrijk fragment van het Europese Single Rule Book voor banken en is geschreven voor al diegenen die in de praktijk te maken hebben met de financiering van banken en de door banken aan te houden kapitaalbuffers. Prof. dr. Bart P.M. Joosen (1963) is als hoogleraar Prudentieel Toezichtrecht verbonden aan de Universiteit van Amsterdam. In zijn bijdragen aan de Nederlandse en internationale vakliteratuur besteedt hij regelmatig aandacht aan onderwerpen van het financieel toezichtrecht en dan voornamelijk het onderdeel prudentieel toezichtrecht, Bankenunie en het Single Rule Book. Bart is naast zijn rol aan de universiteit als counsel verbonden aan Loyens & Loeff en werkzaam als advocaat in de financieel toezichtrechtpraktijk. Mr. drs. Matthijs K.Z. Groot (1973) is werkzaam als advocaat. In zijn praktijk ligt de nadruk op financieel toezichtrecht, betalingsverkeer en bancaire financiering.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole><![CDATA[01]]></PublishingRole>
+                <PublisherName><![CDATA[Paris]]></PublisherName>
+            </Publisher>
+            <CityOfPublication></CityOfPublication>
+            <PublishingStatus><![CDATA[04]]></PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="00"><![CDATA[12-11-2015]]></Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole><![CDATA[01]]></PublishingDateRole>
+                <Date dateformat="05"><![CDATA[2015]]></Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial>
+            <RelatedProduct>
+                <ProductRelationCode><![CDATA[13]]></ProductRelationCode>
+                <ProductIdentifier>
+                    <ProductIDType><![CDATA[15]]></ProductIDType>
+                    <IDValue><![CDATA[9789462510869]]></IDValue>
+                </ProductIdentifier>
+            </RelatedProduct>
+        </RelatedMaterial>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole></SupplierRole>
+                    <SupplierName></SupplierName>
+                </Supplier>
+                <ProductAvailability></ProductAvailability>
+                <Price>
+                    <PriceType><![CDATA[01]]></PriceType>
+                    <PriceAmount><![CDATA[63.76]]></PriceAmount>
+                    <CurrencyCode><![CDATA[EUR]]></CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>
