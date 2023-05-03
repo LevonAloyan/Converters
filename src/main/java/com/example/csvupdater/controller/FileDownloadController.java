@@ -10,6 +10,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 
 @Controller
 public class FileDownloadController {
@@ -24,7 +25,7 @@ public class FileDownloadController {
         String line = "";
         while ((line = bufferedReader.readLine() )!= null){
             Runtime rt = Runtime.getRuntime();
-            rt.exec("curl https://contentmanager2.prd.legalintelligence.com/content/viewer/raw/" + line + " --output " + line + ".xml");
+            rt.exec("curl https://contentmanager2.prd.legalintelligence.com/content/viewer/raw/" + line + " --output " +"./results/"+ line + ".xml");
         }
         } catch (IOException e) {
             e.printStackTrace();
